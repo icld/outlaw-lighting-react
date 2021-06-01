@@ -23,7 +23,7 @@ const Nav = () => {
               <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="/">
-                    <img className="h-8 w-auto sm:h-10" src={Logo} />
+                    <img className="h-8 w-auto sm:h-10" src={Logo} alt="logo" />
                   </a>
                   <a
                     href="/"
