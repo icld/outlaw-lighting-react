@@ -1,17 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "../assets/cropped-New-Logo-Small.png";
 import Nav from "./Nav/Nav";
-import Logo from "../assets/skull.png";
-
-const navigation = [
-  { name: "About", href: "#" },
-  { name: "Design", href: "#" },
-  { name: "Equipment", href: "#" },
-  { name: "Contact", href: "#" },
-];
 
 export default function Example() {
   return (
