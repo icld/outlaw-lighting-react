@@ -1,10 +1,17 @@
 import "./App.css";
-import Home from "./components/Home";
+
+import Landing from "./components/Landing";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <div className="bg-black flex items-center m-auto">
+      <div className="">
+        <NavBar />
+        <Landing />
+        <Footer />
+      </div>
     </div>
   );
 }
