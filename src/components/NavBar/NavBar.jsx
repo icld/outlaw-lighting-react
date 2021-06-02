@@ -1,14 +1,15 @@
+import { Route, Switch, NavLink } from "react-router-dom";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../assets/skull.png";
 
 const navigation = [
-  { name: "Design", href: "#" },
-  { name: "Gear", href: "#" },
-  { name: "Gallery", href: "#" },
-  { name: "Sales", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Design", href: "design" },
+  { name: "Gear", href: "gear" },
+  { name: "Gallery", href: "gallery" },
+  { name: "Sales", href: "sales" },
+  { name: "Contact", href: "contact" },
 ];
 
 const Nav = () => {
@@ -24,15 +25,15 @@ const Nav = () => {
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="/">
+                    <NavLink to="/">
                       <img
                         className="h-8 w-auto sm:h-10"
                         src={Logo}
                         alt="logo"
                       />
-                    </a>
+                    </NavLink>
                     <a
-                      href="/"
+                      href="tel:+19712355608"
                       className="font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
                     >
                       1-900-Outlaw1
@@ -47,13 +48,13 @@ const Nav = () => {
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
-                    <a
+                    <NavLink
                       key={item.name}
-                      href={item.href}
+                      to={`/${item.href}`}
                       className="font-medium text-gray-500 hover:text-gray-300"
                     >
                       {item.name}
-                    </a>
+                    </NavLink>
                   ))}
                 </div>
               </nav>
