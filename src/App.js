@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Landing from "./components/Landing";
@@ -7,6 +8,12 @@ import Sales from "./components/Sales/Sales";
 import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Gear from "./components/Gear/Gear";
+import Automated from "./components/GearCategories/Automated";
+import StaticFixtures from "./components/GearCategories/StaticFixtures";
+import Power from "./components/GearCategories/Power";
+import Control from "./components/GearCategories/Control";
+import Rigging from "./components/GearCategories/Rigging";
+import Atmosphere from "./components/GearCategories/Atmosphere";
 import Footer from "./components/Footer/Footer";
 
 function App() {

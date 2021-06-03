@@ -1,3 +1,4 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
@@ -17,7 +18,7 @@ const Nav = () => {
     <div className="bg-gray-900">
       <Popover>
         {({ open }) => (
-          <>
+          <Fragment>
             <div className="relative pt-8 px-4 sm:px-6 lg:px-8 ">
               <nav
                 className="relative flex items-center justify-between sm:h-10 lg:justify-start pb-8"
@@ -113,7 +114,7 @@ const Nav = () => {
                 </div>
               </Popover.Panel>
             </Transition>
-          </>
+          </Fragment>
         )}
       </Popover>
     </div>
