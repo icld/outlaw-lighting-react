@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 const Rigging = () => {
   return (
@@ -6,12 +5,6 @@ const Rigging = () => {
       <div>Rigging</div>
     </div>
   );
-=======
-const Rigging = () => {
-  <div>
-    <div>Rigging</div>
-  </div>;
->>>>>>> 1ef0d3ebbca590e6f286b86cbabe942baebcae09
 };
 
 export default Rigging;
