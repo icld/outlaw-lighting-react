@@ -21,6 +21,13 @@ function App() {
             <Route path="/sales" component={Sales} />
             <Route path="/contact" component={Contact} />
             <Route path="/gear" component={Gear} />
+            <Route path="/gear/automated" component={Automated} />
+            <Route path="/gear/static" component={StaticFixtures} />
+            <Route path="/gear/power" component={Power} />
+            <Route path="/gear/control" component={Control} />
+            <Route path="/gear/rigging" component={Rigging} />
+            <Route path="/gear/atmosphere" component={Atmosphere} />
+
             <Route path="/design" component={Design} />
             <Route exact path="/" component={Landing} />
           </Switch>
