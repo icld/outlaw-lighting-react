@@ -1,3 +1,4 @@
+import React from "react";
 import GearCategories from "../GearCategories/GearCategories";
 const Gear = () => {
   return (

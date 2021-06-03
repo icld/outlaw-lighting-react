@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "../assets/full-logo.png";
 import Carousel from "./Carousel/Carousel";
 import images from "../../src/components/Carousel/CarouselData";

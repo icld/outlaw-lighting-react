@@ -1,3 +1,4 @@
+import React from "react";
 import GearCategoryCard from "../GearCategoryCard/GearCategoryCard";
 
 import categories from "./categoryData";

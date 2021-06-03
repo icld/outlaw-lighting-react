@@ -1,10 +1,10 @@
 import React from "react";
-const Automated = () => {
+const StaticFixtures = () => {
   return (
     <div className="prose-2xl text-white h-screen">
-      <div>Automated StaticFixtures</div>
+      <div>Static Fixtures</div>
     </div>
   );
 };
 
-export default Automated;
+export default StaticFixtures;
