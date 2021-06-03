@@ -18,7 +18,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="bg-black flex items-center m-auto ">
+    <div className="bg-black flex items-center m-auto">
       <div className="">
         <Router>
           <NavBar />
