@@ -1,5 +1,6 @@
 import Image from "../assets/full-logo.png";
 import Carousel from "./Carousel/Carousel";
+import images from "../../src/components/Carousel/CarouselData";
 // import Nav from "./Nav/Nav";
 
 const Landing = () => {
@@ -10,7 +11,7 @@ const Landing = () => {
         alt="skull logo"
         className="mx-auto z-10 -my-28 w-full absolute"
       ></img>
-      <Carousel className="" />
+      <Carousel images={images} className="" />
     </div>
   );
 };
