@@ -3,3 +3,5 @@ const Automated = () => {
     <div>Automated</div>
   </div>;
 };
+
+export default Automated;
