@@ -18,8 +18,8 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="bg-black items-center m-auto">
-      <div className="h-auto">
+    <div className="bg-black items-center m-auto ">
+      <div className="h-screen relative">
         <Router>
           <NavBar />
 

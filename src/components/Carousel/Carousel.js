@@ -16,7 +16,7 @@ const Carousel = ({ images }) => {
 
   handleImageChange();
   return (
-    <div className="carousel w-11/12 mx-auto mt-32 transition-all duration-500">
+    <div className=" mt-32 ">
       <img
         src={images[activeImage].image}
         alt="concert"
