@@ -4,9 +4,9 @@ import Logo from "../../assets/full-logo.png";
 const Footer = () => {
   return (
     <div>
-      <div className=" min-h-80 bg-gray-900 grid sm:grid-cols-1 md:grid-cols-3 gap-6 mt-8 text-gray-400 ">
+      <div className=" min-h-80 bg-gray-900 grid grid-cols-3 gap-6 mt-8 text-gray-400 h-auto">
         <img src={Logo} alt="logo" className="m-auto w-full" />
-        <p className="text-2xl m-auto content-center">
+        <p className="prose prose-lg m-auto content-center">
           <strong>Outlaw Lighting</strong>
           <br />
           3342 NW 26th Ave Suite 14

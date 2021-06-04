@@ -6,11 +6,11 @@ import images from "../../src/components/Carousel/CarouselData";
 
 const Landing = () => {
   return (
-    <div className="bg-black ">
+    <div className="bg-black">
       <img
         src={Image}
         alt="skull logo"
-        className="mx-auto z-10 -my-28 w-full absolute"
+        className="mx-auto z-10 -my-28 w-screen absolute"
       ></img>
       <Carousel images={images} className="" />
     </div>
