@@ -13,13 +13,14 @@ import StaticFixtures from "./components/GearCategories/StaticFixtures";
 import Power from "./components/GearCategories/Power";
 import Control from "./components/GearCategories/Control";
 import Rigging from "./components/GearCategories/Rigging";
-import Atmosphere from "./components/GearCategories/Atmosphere";
+import Atmosphere from "./components/GearCategories/Atmosphere/Atmosphere";
 import Footer from "./components/Footer/Footer";
+import AtmosphereDetailsCard from "./components/GearCategories/Atmosphere/AtmosphereDetailsCard";
 
 function App() {
   return (
-    <div className="bg-black items-center m-auto ">
-      <div className="h-screen relative">
+    <div className="bg-black items-center m-auto h-auto ">
+      <div className=" ">
         <Router>
           <NavBar />
 
@@ -33,7 +34,12 @@ function App() {
             <Route exact path="/gear/power" component={Power} />
             <Route path="/gear/control" component={Control} />
             <Route path="/gear/rigging" component={Rigging} />
-            <Route path="/gear/atmosphere" component={Atmosphere} />
+            <Route exact path="/gear/atmosphere" component={Atmosphere} />
+            <Route
+              exact
+              path="/gear/atmosphere/:item"
+              component={AtmosphereDetailsCard}
+            />
 
             <Route path="/design" component={Design} />
             <Route exact path="/" component={Landing} />
