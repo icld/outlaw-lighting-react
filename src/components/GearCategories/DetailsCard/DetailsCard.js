@@ -31,18 +31,21 @@ const DetailsCard = (props) => {
         <p className="prose prose-lg prose-black p-4 px-10 m-auto text-justify">
           {item.info}
         </p>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src={item.vid}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            className="m-auto mb-10 object-cover shadow-2xl"
-          ></iframe>
-        </div>
+
+        {item.vid ? (
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src={item.vid}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="m-auto mb-10 object-cover shadow-2xl"
+            ></iframe>
+          </div>
+        ) : null}
       </div>
       );
     </div>

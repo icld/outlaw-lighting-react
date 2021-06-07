@@ -2,6 +2,7 @@ import mdg from "./AtmosphereAssets/mdg.png";
 import baseHazer from "./AtmosphereAssets/base-hazer.png";
 import cloudNine from "./AtmosphereAssets/cloud-nine.png";
 import vesuvio from "./AtmosphereAssets/vesuvio.png";
+import lasko from "./AtmosphereAssets/lasko.png";
 
 const fixtures = [
   {
@@ -75,6 +76,24 @@ const fixtures = [
     ],
     vid: "https://www.youtube.com/embed/GYMjbS3tqdA",
     url: "/atmosphere/vesuvio",
+  },
+  {
+    name: "Lasko Blower Fan",
+    nameID: "lasko",
+    image: lasko,
+    desc: "",
+    info: "Lasko’s Pro-Performance High Velocity Pivoting Blower Utility Fan features 3 performance speeds directing air where needed for cooling, ventilating, exhausting and drying. Two 120-volt accessory outlets and 3-prong, grounded safety plug.",
+    specs: [
+      "Two 120-volt accessory outlets",
+      "Circuit breaker with reset button",
+      "Easy-grip handle",
+      "Dependable ball bearing motor",
+      "Pivots to direct air flow & circulation",
+      "3 powerful speeds",
+      "Dimensions: 11.25″ L x 14.5″ W x 14.5″ H, 13.5lbs",
+    ],
+
+    url: "/atmosphere/lasko",
   },
 ];
 

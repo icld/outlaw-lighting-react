@@ -5,7 +5,7 @@ const GearCategoryCard = ({ name, image, url }) => {
   return (
     <NavLink to={url}>
       <div className="prose prose-lg group w-11/12 h-80 m-auto rounded-xl bg-white relative transition-all duration-300 ring-4 ring-blue-500 justify-center ">
-        <h2 className="hover:opacity-100 absolute "> {name}</h2>
+        <h2 className="absolute pl-4 pt-2"> {name}</h2>
         <div className="flex w-full h-full cursor-pointer group-hover:opacity-30 shadow-2xl transition-all duration-300 overflow-hidden ">
           <img
             src={image}
