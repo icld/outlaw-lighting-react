@@ -1,6 +1,7 @@
 import esprite from "./AutomatedAssets/esprite.png";
 import monet from "./AutomatedAssets/monet.png";
 import viper from "./AutomatedAssets/viper.png";
+import axiom from "./AutomatedAssets/axiom.png";
 const fixtures = [
   {
     name: "Robe Esprite",
@@ -65,6 +66,27 @@ const fixtures = [
     ],
     vid: "https://www.youtube.com/embed/LNTuFL8-rew",
     url: "/automated/viper",
+  },
+  {
+    name: "Martin Mac Axiom Hybrid",
+    nameID: "axiom",
+    image: axiom,
+    desc: "",
+    info: "The MAC Axiom™ Hybrid is a true all-in-one product, combining beam and spot into one compact unit that also offers diffused wash functionality. The high-precision optical system offers exceptional contrast, both in mid-air and projection as well as a surprisingly flat field, usually not seen with this short-arc lamp technology. The implementation of the MAC Viper CMY color palette gives designers the advantage of unlimited choice from subtle pastel shades to deep and saturated colors. All this comes in a small footprint and lightweight product which delivers superior performance in the best feature vs. size and weight ratio available in the market.",
+    specs: [
+      "Power: 100-240 V operation, 600 W",
+      "Output: 16 000 Lumens wide / 14 000 Lumens narrow",
+      "Color Temperature: 7000 K",
+      "DMX Channels: 23, RDM Capable",
+      "Zoom Range: 2-44°",
+      "Rotating Gobos: 9",
+      "Static Gobos: 16. integrated animation effects",
+      "Color Wheels: Independent 16-slot color wheel ",
+      "Cable Inputs: True1, 5-pin XLR",
+      'Dimensions: 15.8" L x 16.3" W x 24.9" H, 54.7lbs',
+    ],
+    vid: "https://www.youtube.com/embed/TfERaCQ_WzU",
+    url: "/automated/axiom",
   },
 ];
 
