@@ -1,6 +1,7 @@
 import mdg from "./AtmosphereAssets/mdg.png";
 import baseHazer from "./AtmosphereAssets/base-hazer.png";
 import cloudNine from "./AtmosphereAssets/cloud-nine.png";
+import vesuvio from "./AtmosphereAssets/vesuvio.png";
 
 const fixtures = [
   {
@@ -55,6 +56,25 @@ const fixtures = [
     ],
     vid: "https://www.youtube.com/embed/1sdnGrIF8aM",
     url: "/atmosphere/cloud-nine",
+  },
+  {
+    name: "Chauvet Vesuvio Vertical Fog Cannon II",
+    nameID: "vesuvio",
+    image: vesuvio,
+    desc: "",
+    info: "Vesuvio II illuminates bursts of fog with advanced RGBA+UV LED color mixing, providing ferocious effects for events and performances. Featuring an impressive 40,000 cubic feet of fog per minute, it boasts a best in class 40 seconds of full burst output. New dual LED sections give greater creative control for a more even coverage of light. The Vesuvio II is built for efficiency, consuming only 80 ml/min of QDF fluid. This highly versatile unit can run in three different positions: vertically, horizontally or from overhead with mounting brackets. It works best with CHAUVET QDF quick dissipating fluid.",
+    specs: [
+      "Power: 1,480 W, 12.55 A @ 120 V, 60 Hz",
+      "Warm Up Time: 10 minutes",
+      "Output: 40,000 cfm",
+      "Tank Capacity: .7 Gallon",
+      "Haze Density: Variable",
+      "Control: DMX (15 channels)",
+      "Dimensions: 19.49″ L x 13.18″ W x 9.39″ H, 28.4lbs",
+      "Inputs: Powercon, 5-pin XLR",
+    ],
+    vid: "https://www.youtube.com/embed/GYMjbS3tqdA",
+    url: "/atmosphere/vesuvio",
   },
 ];
 
