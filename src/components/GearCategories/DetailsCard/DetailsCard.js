@@ -1,36 +1,28 @@
 import React from "react";
 
-// import { NavLink } from "react-router-dom";
-
 const DetailsCard = (props) => {
   const item = props.item;
 
   return (
     <div>
       return (
-      <div className="my-10 w-11/12 prose prose-lg group h-auto m-auto rounded-xl bg-white relative transition-all duration-300 ring-4 ring-blue-500 justify-center flex flex-col">
-        <h2 className=" m-10 pt-10"> {item.name}</h2>
+      <div className="my-10  w-4/6 group h-auto m-auto rounded-xl bg-white relative transition-all duration-300 ring-4 ring-blue-500 justify-center items-center flex flex-col">
+        <h2 className="   text-6xl mx-14 my-14 "> {item.name}</h2>
 
-        <div className="grid grid-cols-2  gap-10">
-          <div className="mx-10 w-full h-full shadow-xl transition-all duration-300 overflow-hidden ">
-            <img
-              src={item.image}
-              alt="lighting fixture"
-              className="mx-auto pt-4 object-contain"
-            />
+        <div className="grid  grid-cols-1 lg:grid-cols-2  ">
+          <div className="mx-14  h-full shadow-xl transition-all duration-300 overflow-hidden flex items-center justify-center ">
+            <img src={item.image} alt="lighting fixture" className="  w-full" />
           </div>
-          <div>
-            <ul className="mx-10 ">
+          <div className="   flex items-center justify-center">
+            <ul className="mx-auto prose-2xl  list-disc  w-11/12  align-middle">
               {item.specs.map((spec) => (
-                <li>{spec}</li>
+                <li className=" list-item">{spec}</li>
               ))}
             </ul>
           </div>
         </div>
 
-        <p className="prose prose-lg prose-black p-4 px-10 m-auto text-justify">
-          {item.info}
-        </p>
+        <p className=" text-xl mx-14 my-14 m-auto text-justify ">{item.info}</p>
 
         {item.vid ? (
           <div>
