@@ -20,7 +20,7 @@ import AutomatedDetailsCard from "./components/GearCategories/Automated/Automate
 
 function App() {
   return (
-    <div className="bg-black items-center m-auto h-auto w-auto">
+    <div className="bg-black items-center m-auto h-auto w-auto ">
       <div className=" ">
         <Router>
           <NavBar />

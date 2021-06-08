@@ -2,6 +2,7 @@ import esprite from "./AutomatedAssets/esprite.png";
 import monet from "./AutomatedAssets/monet.png";
 import viper from "./AutomatedAssets/viper.png";
 import axiom from "./AutomatedAssets/axiom.png";
+import quantum from "./AutomatedAssets/quantum.png";
 const fixtures = [
   {
     name: "Robe Esprite",
@@ -87,6 +88,28 @@ const fixtures = [
     ],
     vid: "https://www.youtube.com/embed/TfERaCQ_WzU",
     url: "/automated/axiom",
+  },
+  {
+    name: "Martin Mac Quantum Profile",
+    nameID: "quantum",
+    image: quantum,
+    desc: "",
+    info: "This extremely bright LED profile fixture combines top-quality white light with a fast, smooth CMY color mixing system and crisp gobo projection on surfaces as well as mid-air.With all this and the new Animotion™ FX system that allows never-before seen beam animations, the market is now finally seeing the first real 700/800 W discharge lamp replacement in a profile fixture that effectively harnesses cutting-edge LED technology.",
+    specs: [
+      "Power: 120-240 V nominal, 50/60 Hz, 750W",
+      "Output: 12,700 Lumens",
+      "Color Temperature: 6000 K",
+      "DMX Channels: 19/27, RDM Capable",
+      "Zoom Range: 12° - 36°",
+      "Rotating Gobos: 6 interchangeable gobos plus open, wheel rotation, gobo rotation, indexing and shake",
+      "Static Gobos: 10 gobos plus open, wheel indexing, rotation and shake",
+      "Color Wheel: 6 color filters plus open",
+      "Battery-Powered",
+      "Cable Inputs: True1, 5-pin XLR",
+      'Dimensions: 17.8" L x 17.0" W x 25.5" H, 51.1lbs',
+    ],
+    vid: "https://www.youtube.com/embed/nre7_LrcwZg",
+    url: "/automated/quantum",
   },
 ];
 
