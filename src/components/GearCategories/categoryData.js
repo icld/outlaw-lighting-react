@@ -17,7 +17,7 @@ const categories = [
     url: "/static",
   },
   {
-    name: "Power Distrobution",
+    name: "Power Distribution",
     image: pwrDistro,
     url: "/power",
   },

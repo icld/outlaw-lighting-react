@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 const GearCategoryCard = ({ name, image, url }) => {
   return (
     <NavLink to={url}>
-      <div className=" group w-full h-80 m-auto rounded-xl bg-white transition-all duration-300  justify-center ">
+      <div className=" group w-full h-96 m-auto rounded-l bg-white transition-all duration-300  justify-center ">
         <div className=" h-full w-full  transition-all duration-300 justify-center relative overflow-hidden text-center  ">
           <img
             src={image}
             alt="lighting fixture"
-            className=" m-auto group-hover:opacity-80 h-full object-cover"
+            className=" m-auto group-hover:opacity-80 h-full object-cover p-4"
           />
           <h3
             className=" pt-4 w-full  h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-blue-600 drop-shadow-lg group-hover:text-red-600 p-2 text-xl md:text-4xl font-bold absolute top-0  z-2"

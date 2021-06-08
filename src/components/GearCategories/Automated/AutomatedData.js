@@ -3,6 +3,13 @@ import monet from "./AutomatedAssets/monet.png";
 import viper from "./AutomatedAssets/viper.png";
 import axiom from "./AutomatedAssets/axiom.png";
 import quantum from "./AutomatedAssets/quantum.png";
+import chorusline from "./AutomatedAssets/chorusline.png";
+import r3wash from "./AutomatedAssets/r3wash.png";
+import r2x from "./AutomatedAssets/r2x.png";
+import r1beam from "./AutomatedAssets/r1beam.png";
+import pbeam from "./AutomatedAssets/pbeam.png";
+import mac101 from "./AutomatedAssets/mac101.png";
+
 const fixtures = [
   {
     name: "Robe Esprite",
@@ -110,6 +117,113 @@ const fixtures = [
     ],
     vid: "https://www.youtube.com/embed/nre7_LrcwZg",
     url: "/automated/quantum",
+  },
+  {
+    name: "Elation Chorus Line 16",
+    nameID: "chorusline",
+    image: chorusline,
+    desc: "",
+    info: "CHORUS LINE 16™ is a 16 pixel bar wash luminaire featuring 40W 4-in-1 RGBW LEDs, motorized 4° to 40° zoom and 220° tilt movement, full pixel control, 2,700K - 7,000K adjustable linear color temperature, 64 color presets and 14 unique color macros, electronic strobe and 16-bit variable dimming curve modes, adjustable LED refresh rate frequency and gamma brightness for flicker free operation for TV and FILM, DMX, RDM, Kling-NET, and Art-NET protocol support, DMX, RJ45 ethernet, and Locking Power Cable in/out connections, 4 button LCD control panel display, dual quick-lock omega bracket rigging, and a multi-voltage universal auto switching power supply (100-240v).",
+    specs: [
+      "Power: 100-240V - 50/60Hz, 739W ",
+      "Output: 5,700 Lumens",
+      "Color Temperature Range: 2,700K - 7,000K",
+      "DMX Channels: 3 DMX Channel Modes (78 total channels), RDM Capable",
+      "Zoom Range: 4° - 40°",
+      "Cable Inputs: True1, 5-pin XLR",
+      'Dimensions: 42.05" L x 7.44" W x 11.46" H, 47.0 lbs',
+    ],
+    vid: "https://www.youtube.com/embed/KShFK6FW0WY",
+    url: "/automated/chorusline",
+  },
+  {
+    name: "Chauvet Rogue R3 Wash",
+    nameID: "r3wash",
+    image: r3wash,
+    desc: "",
+    info: "Rogue R3 Wash is a feature packed moving wash workhorse ideal for rental and production inventories. It outputs a bright, evenly dispersed light and offers nine zones of LED control to pixel map its 37 (15 W) RGBW quad-LEDs. A quick moving zoom range of 9.3° – 62.6° gives it the spread to cover large areas. Smooth color mixing, simple and complex DMX channel profiles, and powerCON in and out round out the excellent features of this outstanding moving wash.",
+    specs: [
+      "Power: 660 W, 6.21 A @ 120 V, 60 Hz, 689 W, 3.40 A @ 208 V, 60 Hz",
+      "Output: 17,000 Lumens",
+      "Color Temperature: 2,800 to 10,000 K",
+      "DMX Channels: 21, 62, 71, 107, RDM Capable",
+      "Zoom Range: 9.3° to 62.6°",
+      "Cable Inputs: True1, 5-pin XLR",
+      'Dimensions: 15.51" L x 11.73" W x 18.50" H, 38.5lbs',
+    ],
+    vid: "https://www.youtube.com/embed/rqaaOzah16U",
+    url: "/automated/r3wash",
+  },
+  {
+    name: "Chauvet Rogue R2X Wash",
+    nameID: "r2x",
+    image: r2x,
+    desc: "",
+    info: "Rogue R2X Wash is a valuable addition to rental and production inventories. Durable and dependable, this moving wash workhorse produces a bright, powerful light and offers five zones of LED control to pixel map its 19 (25 W) RGBW quad-LEDs. A standout zoom range of 7.3° to 64.3° gives it the spread to cover even the largest areas. Smooth color mixing, simple and complex DMX channel profiles and powerCON in and out are just some of the other features that make this fixture a standout performer in any setting.",
+    specs: [
+      "Power: 342 W, 2.85 A @ 120 V, 60 Hz, 338 W, 1.631 A @ 208 V, 60 Hz",
+      "Output: 10,300 Lumens",
+      "Color Temperature Range: 2800 to 10000 K ",
+      "DMX Channels: 15, 17, 22, 33, 54, or 56, RDM Capable",
+      "Zoom Range: 7.3° to 64.3°",
+      "Cable Inputs: True1, 5-pin XLR",
+      'Dimensions: 8.58" L x 12.05" W x 15.67" H, 22.8lbs',
+    ],
+    vid: "https://www.youtube.com/embed/CzEc9RTPhkI",
+    url: "/automated/r2x",
+  },
+  {
+    name: "Chauvet Rogue R2X Wash",
+    nameID: "r1beam",
+    image: r1beam,
+    desc: "",
+    info: "Rogue R1 BeamWash is a versatile and compact moving head that projects a punchy beam and wash. Weighing just under 12 lbs., the unit features a custom-designed optical system with seven, 40W RGBW LEDs and an expansive zoom range of 3.4° to 67.7° that allows for it to project tight, solid beam effects at its most narrow and transforms the light source into a nice even wash with excellent color blending as it expands. The unit’s small size also allows for a superfast and smooth pan and tilt movement. It’s also RDM enabled for remote addressing and is equipped with a selectable PWM setting to maintain flicker free operation on camera.",
+    specs: [
+      "Power: 285 W, 2.38 A @ 120 V, 60 Hz, 285 W, 1.37 A @ 208 V, 60 Hz",
+      "Output: 5,400 Lumens",
+      "Color Temperature Range: 2800 to 10000 K ",
+      "DMX Channels: 14, 15, 19 or 21, RDM Capable",
+      "Zoom Range: 3.4° to 67.7°",
+      "Cable Inputs: PowerCON, 5-pin XLR",
+      'Dimensions: 8.42" L x 6.29" W x 14.52" H, 11.8lbs',
+    ],
+    vid: "https://www.youtube.com/embed/pKtwqQ-kXNE",
+    url: "/automated/r1beam",
+  },
+  {
+    name: "Elation Platinum Beam 5r Extreme",
+    nameID: "pbeam",
+    image: pbeam,
+    desc: "",
+    info: "The Platinum Beam 5R EXTREME™ features the 189W Platinum 5R lamp, a 3° sharp pin spot beam, 8 facet rotating prism and frost effects, super fast 16 bit 3-phase pan/tilt motors, strobe (1-18 fps), dimming 0-100%, and focus, (12) colors including UV, CTO, CTB, and white, (8) metal rotating, indexing, interchangeable gobos, flicker free operation for TV and FILM, internal EWDMX wireless DMX receiver, remote device management protocol support, 3pin and 5pin DMX in/out and power in connections, (6) button touch control panel, 350W max power consumption, and a multi-voltage universal auto switching power supply (120-240v).",
+    specs: [
+      "Power: 100-240V - 50/60Hz, 350W",
+      "DMX Channels: 12 / 14 / 18",
+      "Rotating Gobos: (8) Metal Rotating, Indexing, Interchangeable Gobos",
+      "Prisms: 8 Facet Rotating Prism",
+      "Color Wheels: (11) Colors Including UV, CTO, and CTB",
+      "Cable Inputs: PowerCON, 5-pin XLR",
+      'Dimensions: 13.9" L x 13.0" W x 20.0" H, 44.0 lbs',
+    ],
+    vid: "https://www.youtube.com/embed/y3_K3YqMhc0",
+    url: "/automated/pbeam",
+  },
+  {
+    name: "Martin Mac 101",
+    nameID: "mac101",
+    image: mac101,
+    desc: "",
+    info: "use LED moving head wash light with an amazingly bright beam for such a compact luminaire. It features rapid movement and calibrated colors with a low price tag that allows for revolutionary set, stage and decorative lighting design.",
+    specs: [
+      "Power: 100-240 V nominal, 50/60 Hz, 123W",
+      "Output: 2400 Lumens",
+      "Color Temperature Range: 2500 - 10 000 K",
+      "DMX Channels: 8/12, RDM Capable",
+      "Cable Inputs: PowerCON, 5-pin XLR",
+      'Dimensions: 9.5" L x 9.5" W x 12.0" H, 8.2lbs',
+    ],
+    vid: "https://www.youtube.com/embed/wG1cjC80afE",
+    url: "/automated/mac101",
   },
 ];
 
