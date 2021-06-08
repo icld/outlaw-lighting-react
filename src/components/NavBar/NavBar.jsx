@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import Logo from "../../assets/skull.png";
+import longLogo from "../../assets/";
 
 const navigation = [
   { name: "Design", href: "design" },
