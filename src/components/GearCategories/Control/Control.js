@@ -2,9 +2,9 @@ import React from "react";
 import GearItemCard from "../../GearItemCard/GearItemCard";
 import BackButton from "../../Buttons/BackButton";
 
-import fixtures from "./StaticFixturesData";
+import fixtures from "./ControlData";
 
-const StaticFixtures = () => {
+const Control = () => {
   return (
     <div className="h-auto bg-black">
       <BackButton />
@@ -26,4 +26,4 @@ const StaticFixtures = () => {
   );
 };
 
-export default StaticFixtures;
+export default Control;
