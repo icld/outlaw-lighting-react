@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Gallery from "./components/Gallery/Gallery";
 import Gear from "./components/Gear/Gear";
 import Automated from "./components/GearCategories/Automated/Automated";
-import StaticFixtures from "./components/GearCategories/StaticFixtures";
+import StaticFixtures from "./components/GearCategories/StaticFixtures/StaticFixtures";
 import Power from "./components/GearCategories/Power";
 import Control from "./components/GearCategories/Control";
 import Rigging from "./components/GearCategories/Rigging";

@@ -12,8 +12,8 @@ const GearCategoryCard = ({ name, image, url }) => {
             className=" m-auto group-hover:opacity-80 h-full object-cover p-4"
           />
           <h3
-            className=" pt-4 w-full  h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-blue-600 drop-shadow-lg group-hover:text-red-600 p-2 text-xl md:text-4xl font-bold absolute top-0  z-2"
-            style={{ textShadow: " 1px 0px 5px tomato" }}
+            className=" pt-4 w-full  h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-black drop-shadow-lg group-hover:text-blue-600 p-2 text-xl md:text-4xl font-bold absolute top-0  z-2"
+            style={{ textShadow: " 1px 0px 1px grey" }}
           >
             {" "}
             {name}

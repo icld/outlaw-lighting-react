@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../assets/outlaw-logo-long-text.png";
-import logo3d from "../../assets/outlaw-3d-tests.png";
+import logo3d from "../../assets/outlaw-3d-test.png";
 
 const navigation = [
   { name: "Design", href: "design" },
