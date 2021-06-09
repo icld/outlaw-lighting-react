@@ -7,9 +7,9 @@ const DetailsCard = (props) => {
   return (
     <div>
       return (
-      <div>
+      <div className="">
         <BackButton />
-        <div className="  md:ml-4 md:mr-4 lg:ml-10 lg:mr-10  lg:full group rounded-xl bg-white relative transition-all duration-300 md:ring-4 md:ring-blue-500 justify-center items-center flex flex-col">
+        <div className="  mt-10 md:l-4 md:mr-4 lg:ml-10 lg:mr-10  lg:full group rounded-xl bg-white relative transition-all duration-300 md:ring-4 md:ring-blue-500 justify-center items-center flex flex-col">
           <h2 className="text-6xl mx-14 my-14 ">{item.name}</h2>
           <div className="grid  grid-cols-1 md:grid-cols-1 lg:grid-cols-2  items-center">
             <div className="lg:ml-14 lg:mr-7 h-full shadow-xl transition-all duration-300 overflow-hidden flex items-center justify-center ">

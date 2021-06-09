@@ -6,7 +6,7 @@ import images from "../../src/components/Carousel/CarouselData";
 
 const Landing = () => {
   return (
-    <div className="bg-black ">
+    <div className=" h-full w-full">
       <img
         src={Image}
         alt="skull logo"
