@@ -17,6 +17,7 @@ import Atmosphere from "./components/GearCategories/Atmosphere/Atmosphere";
 import Footer from "./components/Footer/Footer";
 import AtmosphereDetailsCard from "./components/GearCategories/Atmosphere/AtmosphereDetailsCard";
 import AutomatedDetailsCard from "./components/GearCategories/Automated/AutomatedDetailsCard";
+import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixtures/StaticFixturesDetailsCard";
 
 function App() {
   return (
@@ -31,10 +32,10 @@ function App() {
             <Route path="/contact" component={Contact} />
             <Route exact path="/gear" component={Gear} />
             <Route exact path="/gear/automated" component={Automated} />
-            <Route path="/gear/static" component={StaticFixtures} />
+            <Route exact path="/gear/static" component={StaticFixtures} />
             <Route exact path="/gear/power" component={Power} />
-            <Route path="/gear/control" component={Control} />
-            <Route path="/gear/rigging" component={Rigging} />
+            <Route exact path="/gear/control" component={Control} />
+            <Route exact path="/gear/rigging" component={Rigging} />
             <Route exact path="/gear/atmosphere" component={Atmosphere} />
             <Route
               exact
@@ -45,6 +46,11 @@ function App() {
               exact
               path="/gear/automated/:item"
               component={AutomatedDetailsCard}
+            />
+            <Route
+              exact
+              path="/gear/static/:item"
+              component={StaticFixturesDetailsCard}
             />
 
             <Route path="/design" component={Design} />

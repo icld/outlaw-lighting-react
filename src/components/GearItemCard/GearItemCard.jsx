@@ -11,7 +11,7 @@ const GearItemCard = ({ ...props }) => {
           <img
             src={props.image}
             alt="lighting fixture"
-            className=" m-auto group-hover:opacity-80 h-full object-cover"
+            className=" m-auto group-hover:opacity-80 h-full object-cover rounded-xl"
           />
           <h3
             className=" w-full  h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-black drop-shadow-lg group-hover:text-blue-600 p-2 text-xl md:text-4xl font-extrabold absolute top-0  z-2"
