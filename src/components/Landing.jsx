@@ -13,7 +13,7 @@ const Landing = () => {
         className="mx-auto z-10 -my-28 w-screen absolute"
       ></img>
       <div className=" w-11/12 mx-auto">
-        <Carousel images={images} className=" " />
+        <Carousel images={images} className="w-screen mx-auto" />
         <h1 className="text-indigo-600 text-2xl md:text-5xl font-extrabold  mt-6">
           Event Production Solutions
         </h1>

@@ -7,7 +7,7 @@ const GearCategories = () => {
   return (
     <div
       className="bg-black h-auto
-     grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-10"
+     flex flex-wrap m-auto"
     >
       {categories.map((cat, index) => (
         <GearCategoryCard

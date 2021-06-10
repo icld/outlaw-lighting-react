@@ -20,14 +20,14 @@ const Nav = () => {
       <Popover>
         {({ open }) => (
           <Fragment>
-            <div className="relative pt-8 px-4 sm:px-6 lg:px-8 ">
+            <div className="relative pt-8 px-4 sm:px-6 lg:px-8  ">
               <nav
-                className="relative flex items-center justify-between h-full lg:justify-start pb-8"
+                className="relative flex flex-row items-center justify-between h-full lg:justify-start pb-8 w-full"
                 aria-label="Global"
               >
-                <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div className="flex items-center flex-grow  m-auto">
                   <div className="flex items-center justify-between h-full w-full md:w-auto text-xl">
-                    <NavLink to="/" className="w-52">
+                    <NavLink to="/" className="w-32">
                       <img
                         className="h-auto object-cover "
                         src={logo3d}
@@ -36,7 +36,7 @@ const Nav = () => {
                     </NavLink>
                     <a
                       href="tel:+19712355608"
-                      className="md:hidden ml-4 mr-4 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
+                      className="  self-center md:hidden ml-4 mr-4 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
                     >
                       1-900-Outlaw1
                     </a>
@@ -54,6 +54,7 @@ const Nav = () => {
                       key={item.name}
                       to={`/${item.href}`}
                       className="font-medium text-2xl text-gray-500 hover:text-gray-300"
+                      activeStyle={{ color: "tomato" }}
                     >
                       {item.name}
                     </NavLink>

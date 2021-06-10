@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const GearItemCard = ({ ...props }) => {
   return (
-    <div className="group overflow-hidden m-10 rounded-lg bg-white   min-w-min w-96 h-96 flex-auto ">
+    <div className="group overflow-hidden m-10 rounded-lg bg-white   min-w-min   w-72 md:w-96 h-96 flex-auto ">
       <NavLink to={`/gear${props.url}`} className="relative ">
         <div className=" h-full w-full transition-all duration-300 text-center relative overflow-hidden ">
           <img
@@ -20,7 +20,7 @@ const GearItemCard = ({ ...props }) => {
             {" "}
             {props.name}
           </h3>
-          <div className="opacity-0 text-white shadow-lg bg-green-500  self-center absolute m-auto group-hover:opacity-100 text-center p-2 rounded-lg transition-all duration-300 border border-gray-600 ">
+          <div className="opacity-0 text-white shadow-lg bg-green-500  absolute m-auto group-hover:opacity-100 text-center p-2 rounded-lg transition-all duration-300 border border-gray-600 ">
             Specs
           </div>
         </div>
