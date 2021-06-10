@@ -10,7 +10,7 @@ const Landing = () => {
       <img
         src={Image}
         alt="skull logo"
-        className="mx-auto z-10 -my-28 w-screen absolute"
+        className="mx-auto z-10 -my-28 w-full absolute"
       ></img>
       <div className=" w-11/12 mx-auto">
         <Carousel images={images} className="w-screen mx-auto" />
