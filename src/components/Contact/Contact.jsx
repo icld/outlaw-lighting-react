@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import React from "react";
 
-const contactInfo = [{}];
+// const contactInfo = [{}];
 
 const Contact = () => {
   return (
