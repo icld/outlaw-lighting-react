@@ -16,7 +16,7 @@ const navigation = [
 
 const Nav = () => {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 top-0">
       <Popover>
         {({ open }) => (
           <Fragment>
