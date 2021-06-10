@@ -1,10 +1,6 @@
 import React from "react";
 const Design = () => {
-  return (
-    <div className="h-screen">
-      <p className="text-white">A Design Page</p>
-    </div>
-  );
+  return <div className="h-screen bg-white grid grid"></div>;
 };
 
 export default Design;

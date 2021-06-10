@@ -5,16 +5,16 @@ import { NavLink } from "react-router-dom";
 
 const GearItemCard = ({ ...props }) => {
   return (
-    <div className="group w-full h-80 m-auto rounded-xl bg-white transition-all duration-300  justify-center ">
+    <div className="group overflow-hidden m-10 rounded-lg bg-white   min-w-min w-96 h-96 flex-auto ">
       <NavLink to={`/gear${props.url}`} className="relative ">
-        <div className="h-full w-full  transition-all duration-300 text-center relative overflow-hidden ">
+        <div className=" h-full w-full transition-all duration-300 text-center relative overflow-hidden ">
           <img
             src={props.image}
             alt="lighting fixture"
-            className=" m-auto group-hover:opacity-80 h-full object-cover rounded-xl"
+            className="transform hover:scale-125 hover:translate-y-6 m-auto group-hover:opacity-80 h-full object-cover rounded-xl transition ease-in-out duration-500"
           />
           <h3
-            className=" w-full  h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-black drop-shadow-lg group-hover:text-blue-600 p-2 text-xl md:text-4xl font-extrabold absolute top-0  z-2"
+            className=" w-full h-24 rounded-xl bg-gradient-to-b from-white to-transparent  text-black drop-shadow-lg group-hover:text-blue-600 p-2 text-xl md:text-4xl font-extrabold absolute top-0"
             style={{ textShadow: " 1px 0px 1px grey" }}
           >
             {" "}
