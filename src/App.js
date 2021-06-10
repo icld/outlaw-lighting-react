@@ -21,7 +21,7 @@ import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixture
 
 function App() {
   return (
-    <div className="items-center m-auto h-full w-screen bg-black relative">
+    <div className="items-center m-auto h-full w-full bg-black relative">
       <div className=" ">
         <Router>
           <NavBar />
