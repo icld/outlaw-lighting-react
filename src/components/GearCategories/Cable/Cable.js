@@ -4,7 +4,7 @@ import BackButton from "../../Buttons/BackButton";
 
 import fixtures from "./CableData";
 
-const Atmosphere = (props) => {
+const Cable = (props) => {
   return (
     <div className="h-auto bg-black">
       <BackButton />
@@ -26,4 +26,4 @@ const Atmosphere = (props) => {
   );
 };
 
-export default Atmosphere;
+export default Cable;

@@ -13,11 +13,13 @@ import StaticFixtures from "./components/GearCategories/StaticFixtures/StaticFix
 import Power from "./components/GearCategories/Power/Power";
 import Control from "./components/GearCategories/Control/Control";
 import Rigging from "./components/GearCategories/Rigging/Rigging";
+import Cable from "./components/GearCategories/Cable/Cable";
 import Atmosphere from "./components/GearCategories/Atmosphere/Atmosphere";
 import Footer from "./components/Footer/Footer";
 import AtmosphereDetailsCard from "./components/GearCategories/Atmosphere/AtmosphereDetailsCard";
 import AutomatedDetailsCard from "./components/GearCategories/Automated/AutomatedDetailsCard";
 import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixtures/StaticFixturesDetailsCard";
+import CableDetailsCard from "./components/GearCategories/Cable/CableDetailsCard";
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function App() {
             <Route exact path="/gear/power" component={Power} />
             <Route exact path="/gear/control" component={Control} />
             <Route exact path="/gear/rigging" component={Rigging} />
+            <Route exact path="/gear/cable" component={Cable} />
             <Route exact path="/gear/atmosphere" component={Atmosphere} />
             <Route
               exact
@@ -51,6 +54,11 @@ function App() {
               exact
               path="/gear/static/:item"
               component={StaticFixturesDetailsCard}
+            />
+            <Route
+              exact
+              path="/gear/cable/:item"
+              component={CableDetailsCard}
             />
 
             <Route path="/design" component={Design} />
