@@ -20,6 +20,7 @@ import AtmosphereDetailsCard from "./components/GearCategories/Atmosphere/Atmosp
 import AutomatedDetailsCard from "./components/GearCategories/Automated/AutomatedDetailsCard";
 import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixtures/StaticFixturesDetailsCard";
 import CableDetailsCard from "./components/GearCategories/Cable/CableDetailsCard";
+import ControlDetailsCard from "./components/GearCategories/Control/ControlDetailsCard";
 
 function App() {
   return (
@@ -59,6 +60,11 @@ function App() {
               exact
               path="/gear/cable/:item"
               component={CableDetailsCard}
+            />
+            <Route
+              exact
+              path="/gear/control/:item"
+              component={ControlDetailsCard}
             />
 
             <Route path="/design" component={Design} />
