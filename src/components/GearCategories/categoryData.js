@@ -4,6 +4,7 @@ import pwrDistro from "../../assets/category-images/power.jpeg";
 import control from "../../assets/category-images/control.png";
 import rigging from "../../assets/category-images/rigging.png";
 import atmosphere from "../../assets/category-images/atmosphere.png";
+import cable from "../GearCategories/Cable/CableAssets/dmx.jpeg";
 
 const categories = [
   {
@@ -22,9 +23,14 @@ const categories = [
     url: "/power",
   },
   {
-    name: "Control/Data",
+    name: "Control",
     image: control,
     url: "/control",
+  },
+  {
+    name: "Cable",
+    image: cable,
+    url: "/cable",
   },
   {
     name: "Rigging",
