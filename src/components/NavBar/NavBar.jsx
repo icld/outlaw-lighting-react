@@ -27,7 +27,11 @@ const Nav = () => {
               >
                 <div className="flex items-center flex-grow  m-auto">
                   <div className="flex items-center justify-between h-full w-full md:w-auto text-xl">
-                    <NavLink to="/" className="w-32">
+                    <NavLink
+                      to="/"
+                      className="w-32"
+                      style={{ textShadow: "1px 1px 3px white" }}
+                    >
                       <img
                         className="h-auto object-cover "
                         src={logo3d}
@@ -37,6 +41,7 @@ const Nav = () => {
                     <a
                       href="tel:+19712355608"
                       className="  self-center md:hidden ml-4 mr-4 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
+                      style={{ textShadow: "0px .5px 1px white" }}
                     >
                       1-900-Outlaw1
                     </a>
@@ -55,6 +60,7 @@ const Nav = () => {
                       to={`/${item.href}`}
                       className="font-medium text-2xl text-gray-500 hover:text-gray-300"
                       activeStyle={{ color: "tomato" }}
+                      style={{ textShadow: "0.5px .5px 1px white" }}
                     >
                       {item.name}
                     </NavLink>

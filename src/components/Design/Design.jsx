@@ -11,7 +11,10 @@ const Design = () => {
           src={designBanner}
           alt="concert lights"
         ></img>
-        <h2 className=" text-2xl md:text-4xl lg:text-6xl font-extrabold w-full m-auto absolute">
+        <h2
+          className=" text-2xl md:text-4xl lg:text-6xl font-extrabold w-full m-auto absolute"
+          style={{ textShadow: "1px 1px 3px white" }}
+        >
           Full Service Production Design
         </h2>
       </div>

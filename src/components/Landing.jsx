@@ -14,10 +14,16 @@ const Landing = () => {
       ></img>
       <div className=" w-11/12 mx-auto">
         <Carousel images={images} className="w-screen mx-auto" />
-        <h1 className="text-indigo-600 text-2xl md:text-5xl font-extrabold  mt-6">
+        <h1
+          className="text-indigo-600 text-2xl md:text-5xl font-extrabold  mt-6"
+          style={{ textShadow: "1px 1px 3px white" }}
+        >
           Event Production Solutions
         </h1>
-        <h1 className=" text-xl md:text-4xl text-indigo-200 font-extrabold  pb-8 mt-2">
+        <h1
+          className=" text-xl md:text-4xl text-indigo-200 font-extrabold  pb-8 mt-2"
+          style={{ textShadow: "1px 1px 3px white" }}
+        >
           From Design to Activation
         </h1>
       </div>
