@@ -59,7 +59,10 @@ const Nav = () => {
                       key={item.name}
                       to={`/${item.href}`}
                       className="font-medium text-2xl text-gray-500 hover:text-gray-300"
-                      activeStyle={{ color: "tomato" }}
+                      activeStyle={{
+                        color: "tomato",
+                        textShadow: "0.5px .5px 1px lightblue",
+                      }}
                       style={{ textShadow: "0.5px .5px 1px white" }}
                     >
                       {item.name}
