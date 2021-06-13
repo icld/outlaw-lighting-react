@@ -1,14 +1,22 @@
 import React from "react";
 import designData from "./DesignData";
+import designBanner from "./DesignAssets/designBanner.png";
 
 const Design = () => {
   return (
-    <div className="bg-white flex flex-col ">
-      <h2 className="text-4xl  text-center pt-12 ">
-        Outlaw Lighting is a Full Service Production Design Shop
-      </h2>
+    <div className="bg-white  flex flex-col m-auto ">
+      <div className="relative m-auto h-auto w-full flex text-center   items-center justify-center shadow-2xl border-gray-700   border-t-8">
+        <img
+          className="w-full h-auto"
+          src={designBanner}
+          alt="concert lights"
+        ></img>
+        <h2 className=" text-2xl md:text-4xl lg:text-6xl font-extrabold w-full m-auto absolute">
+          Full Service Production Design
+        </h2>
+      </div>
 
-      <div className="mt-20">
+      <div className=" w-11/12 m-auto mt-16 ">
         {designData.map((item, index) => (
           <div className="container mb-16 mx-auto p-4 md:p-0">
             <div className="shadow-lg md:flex w-full lg:w-4/5 mx-auto">
@@ -21,7 +29,7 @@ const Design = () => {
                 <div className="h-full mx-auto px-6 md:px-0 md:pt-6 md:-ml-6 relative">
                   <div className="bg-white lg:h-full p-6 -mt-6 md:mt-0 relative mb-4 md:mb-0 flex flex-col items-center">
                     <div className="w-full  lg:border-right lg:border-solid text-center  md:text-left">
-                      <h3>{item.title}</h3>
+                      <h3 className="text-2xl">{item.title}</h3>
                       <p className="mb-0 mt-3  text-gray-400 text-sm italic">
                         {item.subTitle}
                       </p>
