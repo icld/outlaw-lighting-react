@@ -5,7 +5,7 @@ import designBanner from "./DesignAssets/designBanner.png";
 const Design = () => {
   return (
     <div className="bg-white  flex flex-col m-auto ">
-      <div className="relative m-auto h-auto w-full flex text-center   items-center justify-center shadow-2xl border-gray-700   border-t-8">
+      <div className="relative m-auto h-auto w-full flex text-center   items-center justify-center shadow-2xl border-red-400   border-t-4">
         <img
           className="w-full h-auto"
           src={designBanner}
