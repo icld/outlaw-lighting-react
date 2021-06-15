@@ -24,8 +24,8 @@ import ControlDetailsCard from "./components/GearCategories/Control/ControlDetai
 
 function App() {
   return (
-    <div className="items-center m-auto h-full w-full bg-black relative">
-      <div className=" ">
+    <div className="flex items-center m-0 h-full bg-black ">
+      <div className=" min-h-full">
         <Router>
           <NavBar />
 

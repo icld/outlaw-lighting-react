@@ -5,10 +5,7 @@ import categories from "./categoryData";
 
 const GearCategories = () => {
   return (
-    <div
-      className="bg-black h-auto
-     flex flex-wrap m-auto"
-    >
+    <div className="bg-white flex flex-col m-auto h-auto relative">
       {categories.map((cat, index) => (
         <GearCategoryCard
           name={cat.name}

@@ -3,7 +3,7 @@ import GearCategories from "../GearCategories/GearCategories";
 import BackButton from "../Buttons/BackButton";
 const Gear = () => {
   return (
-    <div className="h-auto ">
+    <div className="h-auto">
       <BackButton className="" />
       <GearCategories />
     </div>
