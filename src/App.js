@@ -21,6 +21,7 @@ import AutomatedDetailsCard from "./components/GearCategories/Automated/Automate
 import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixtures/StaticFixturesDetailsCard";
 import CableDetailsCard from "./components/GearCategories/Cable/CableDetailsCard";
 import ControlDetailsCard from "./components/GearCategories/Control/ControlDetailsCard";
+import GalleryPage from "./components/Gallery/GalleryPage";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <NavBar />
 
           <Switch>
+            <Route path="/gallery/:item" component={Gallery} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/sales" component={Sales} />
             <Route path="/contact" component={Contact} />
@@ -41,6 +43,7 @@ function App() {
             <Route exact path="/gear/rigging" component={Rigging} />
             <Route exact path="/gear/cable" component={Cable} />
             <Route exact path="/gear/atmosphere" component={Atmosphere} />
+            <Route exact path="/gallery/:item" component={GalleryPage} />
             <Route
               exact
               path="/gear/atmosphere/:item"
