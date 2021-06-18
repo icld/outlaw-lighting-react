@@ -15,7 +15,7 @@ const GalleryPage = (props) => {
                 <img
                   src={image.img}
                   alt={image.type}
-                  key={image.id}
+                  key={image.id + Math.random()}
                   className="m-auto w-full h-auto object-cover"
                 />
                 <div className="absolute text-black  bg-gradient-to-br  from-white md:text-2xl  to-transparent  px-8 md:px-20 py-1 md:py-4">
@@ -25,20 +25,6 @@ const GalleryPage = (props) => {
             ) : null
           )
         )}
-        {/* {Images.concert.map((category) => {
-          return console.log(category.img);
-          // if (category === props.item) {
-          //   return category.map((image) => {
-          //     return (
-          //       <div>
-          //         <img src={image.img} alt="concert" key={image.id} />
-          //       </div>
-          //     );
-          //   });
-          // } else {
-          //   return null;
-          // }
-        })} */}
       </div>
     </div>
   );
