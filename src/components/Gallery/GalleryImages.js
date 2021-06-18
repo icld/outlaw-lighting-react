@@ -1,191 +1,19 @@
 // import "./GalleryAssets/ConcertAssets";
+import concert1 from "./GalleryAssets/ConcertAssets/concert-1.jpg";
+import concert2 from "./GalleryAssets/ConcertAssets/concert-2.jpg";
 
 const Images = [
   {
-    img: require("./GalleryAssets/ConcertAssets/concert-1.jpg").default,
+    img: concert1,
     id: 1,
     type: "concert",
     text: "Watershed",
   },
-  // {
-  //   img: require("./GalleryAssets/ConcertAssets/concert-2.jpg").default,
-  //   id: 2,
-  //   type: "concert",
-  //   text: "",
-  // },
   {
-    img: require("./GalleryAssets/ConcertAssets/concert-3.jpg").default,
-    id: 3,
+    img: concert2,
+    id: 2,
     type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-4.jpg").default,
-    id: 4,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-5.jpg").default,
-    id: 5,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-6.jpg").default,
-    id: 6,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-7.jpg").default,
-    id: 7,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-8.jpg").default,
-    id: 8,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-9.jpg").default,
-    id: 9,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-10.jpg").default,
-    id: 10,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-11.jpg").default,
-    id: 11,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-12.jpg").default,
-    id: 12,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-13.jpg").default,
-    id: 13,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-14.jpg").default,
-    id: 14,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-15.jpg").default,
-    id: 15,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-16.jpg").default,
-    id: 16,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-17.jpg").default,
-    id: 17,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-18.jpg").default,
-    id: 18,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-19.jpg").default,
-    id: 19,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-20.jpg").default,
-    id: 20,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-21.jpg").default,
-    id: 21,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-22.jpg").default,
-    id: 22,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-23.jpg").default,
-    id: 23,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-24.jpg").default,
-    id: 24,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-25.jpg").default,
-    id: 25,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-26.jpg").default,
-    id: 26,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-27.jpg").default,
-    id: 27,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-28.jpg").default,
-    id: 28,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-29.jpg").default,
-    id: 29,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-30.jpg").default,
-    id: 30,
-    type: "concert",
-    text: "",
-  },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-31.jpg").default,
-    id: 31,
-    type: "concert",
-    text: "",
+    text: "Watershed",
   },
 ];
 
