@@ -20,7 +20,7 @@ const Nav = () => {
       <Popover>
         {({ open }) => (
           <Fragment>
-            <div className="relative pt-8     lg:w-5/6 m-auto">
+            <div className="relative pt-8 w-5/6 m-auto">
               <nav
                 className="relative flex flex-row items-center justify-between h-full lg:justify-start pb-8 w-full"
                 aria-label="Global"

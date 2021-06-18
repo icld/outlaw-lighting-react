@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import galleryBanner from "./GalleryAssets/galleryBanner.png";
 
@@ -8,7 +8,7 @@ import GalleryPage from "./GalleryPage";
 
 const Gallery = ({ match, props }) => {
   return (
-    <div className="h-screen bg-white">
+    <div className="h-full bg-white flex flex-col m-auto ">
       <div className="relative m-auto h-auto w-full flex text-center   items-center justify-center shadow-2xl border-red-400   border-t-4">
         <img
           className="w-full h-auto"
@@ -27,7 +27,7 @@ const Gallery = ({ match, props }) => {
           {galleries.map((gallery) => (
             <NavLink
               to={`/gallery/${gallery.url}`}
-              className="font-medium text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
+              className="font-medium md:text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
               activeStyle={{
                 color: "tomato",
               }}
@@ -37,8 +37,8 @@ const Gallery = ({ match, props }) => {
             </NavLink>
           ))}
         </nav>
-        <GalleryPage item={match.params.item} />
       </div>
+      <GalleryPage item={match.params.item} />
     </div>
   );
 };
