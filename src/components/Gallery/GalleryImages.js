@@ -7,12 +7,12 @@ const Images = [
     type: "concert",
     text: "Watershed",
   },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-2.jpg").default,
-    id: 2,
-    type: "concert",
-    text: "",
-  },
+  // {
+  //   img: require("./GalleryAssets/ConcertAssets/concert-2.jpg").default,
+  //   id: 2,
+  //   type: "concert",
+  //   text: "",
+  // },
   {
     img: require("./GalleryAssets/ConcertAssets/concert-3.jpg").default,
     id: 3,
