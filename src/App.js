@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import "./App.css";
 import Landing from "./components/Landing";
 import NavBar from "./components/NavBar/NavBar";
@@ -32,7 +37,7 @@ function App() {
 
           <Switch>
             <Route path="/gallery/:item" component={Gallery} />
-            <Route path="/gallery" component={Gallery} />
+            <Redirect from="/gallery" to="/gallery/concert" />
             <Route path="/sales" component={Sales} />
             <Route path="/contact" component={Contact} />
             <Route exact path="/gear" component={Gear} />
