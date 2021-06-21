@@ -1,4 +1,5 @@
 // import "./GalleryAssets/ConcertAssets";
+// import concert1 from "./GalleryAssets/ConcertAssets/concert-1.png";
 
 const Images = [
   {
@@ -97,12 +98,12 @@ const Images = [
     type: "concert",
     text: "",
   },
-  {
-    img: require("./GalleryAssets/ConcertAssets/concert-17.png").default,
-    id: 17,
-    type: "concert",
-    text: "",
-  },
+  // {
+  //   img: require("./GalleryAssets/ConcertAssets/concert-17.png").default,
+  //   id: 17,
+  //   type: "concert",
+  //   text: "",
+  // },
   {
     img: require("./GalleryAssets/ConcertAssets/concert-18.png").default,
     id: 18,
