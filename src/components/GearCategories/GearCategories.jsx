@@ -12,7 +12,7 @@ const GearCategories = () => {
           image={cat.image}
           key={cat.name}
           index={index}
-          url={`/gear${cat.url}`}
+          url={`/gear/${cat.url}`}
         />
       ))}
     </div>

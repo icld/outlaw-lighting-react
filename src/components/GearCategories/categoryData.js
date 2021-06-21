@@ -10,27 +10,27 @@ const categories = [
   {
     name: "Automated Fixtures",
     image: automated,
-    url: "/automated",
+    url: "automated",
   },
   {
     name: "Static Fixtures",
     image: staticFix,
-    url: "/static",
+    url: "static",
   },
   {
     name: "Power Distribution",
     image: pwrDistro,
-    url: "/power",
+    url: "power",
   },
   {
     name: "Control",
     image: control,
-    url: "/control",
+    url: "control",
   },
   {
     name: "Cable",
     image: cable,
-    url: "/cable",
+    url: "cable",
   },
   {
     name: "Rigging",
@@ -40,7 +40,7 @@ const categories = [
   {
     name: "Atmosphere",
     image: atmosphere,
-    url: "/atmosphere",
+    url: "atmosphere",
   },
 ];
 

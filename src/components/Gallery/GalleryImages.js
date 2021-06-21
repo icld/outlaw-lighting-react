@@ -188,6 +188,48 @@ const Images = [
     type: "concert",
     text: "",
   },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-41.png").default,
+    id: 41,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-42.png").default,
+    id: 42,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-43.png").default,
+    id: 43,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-44.png").default,
+    id: 44,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-45.png").default,
+    id: 45,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-46.png").default,
+    id: 46,
+    type: "corporate",
+    text: "",
+  },
+  {
+    img: require("./GalleryAssets/CorporateAssets/corp-47.png").default,
+    id: 47,
+    type: "corporate",
+    text: "",
+  },
 ];
 
 export default Images;
