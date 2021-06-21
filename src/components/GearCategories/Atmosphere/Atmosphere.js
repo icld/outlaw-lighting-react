@@ -1,13 +1,13 @@
 import React from "react";
 import GearItemCard from "../../GearItemCard/GearItemCard";
-import BackButton from "../../Buttons/BackButton";
+import GearNav from "../../Gear/GearNav";
 
 import fixtures from "./AtmosphereData";
 
 const Atmosphere = (props) => {
   return (
     <div className="h-auto bg-black">
-      <BackButton />
+      <GearNav />
       <div className=" text-white flex flex-wrap m-auto">
         {fixtures.map((fixture, index) => (
           <GearItemCard
