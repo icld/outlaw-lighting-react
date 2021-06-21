@@ -9,33 +9,39 @@ import cable from "../GearCategories/Cable/CableAssets/dmx.jpeg";
 const categories = [
   {
     name: "Automated Fixtures",
+    navTitle: "Automated",
     image: automated,
     url: "automated",
   },
   {
     name: "Static Fixtures",
+    navTitle: "Static",
     image: staticFix,
     url: "static",
   },
   {
     name: "Power Distribution",
+    navTitle: "Power",
     image: pwrDistro,
     url: "power",
   },
   {
     name: "Control",
+    navTitle: "Control",
     image: control,
     url: "control",
   },
   {
     name: "Cable",
+    navTitle: "Cable",
     image: cable,
     url: "cable",
   },
   {
     name: "Rigging",
+    navTitle: "Rigging",
     image: rigging,
-    url: "/rigging",
+    url: "rigging",
   },
   {
     name: "Atmosphere",

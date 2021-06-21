@@ -28,7 +28,7 @@ const GearNav = () => {
               }}
             >
               {" "}
-              {gallery.name}{" "}
+              {gallery.navTitle}{" "}
             </NavLink>
           ))}
         </nav>
