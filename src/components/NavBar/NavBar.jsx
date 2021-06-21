@@ -101,7 +101,7 @@ const Nav = () => {
                     {navigation.map((item) => (
                       <NavLink
                         key={item.name}
-                        to={item.href}
+                        to={`/${item.href}`}
                         className="block px-3 py-2 rounded-md  font-medium text-xl text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}

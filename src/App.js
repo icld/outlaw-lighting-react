@@ -36,10 +36,9 @@ function App() {
           <NavBar />
 
           <Switch>
-            <Route path="/gallery/:item" component={Gallery} />
-            <Redirect from="/gallery" to="/gallery/concert" />
-            <Route path="/sales" component={Sales} />
-            <Route path="/contact" component={Contact} />
+            {/* <Redirect exact from="/gallery" to="/gallery/concert" /> */}
+            <Route exact path="/sales" component={Sales} />
+            <Route exact path="/contact" component={Contact} />
             <Route exact path="/gear" component={Gear} />
             <Route exact path="/gear/automated" component={Automated} />
             <Route exact path="/gear/static" component={StaticFixtures} />
@@ -48,7 +47,8 @@ function App() {
             <Route exact path="/gear/rigging" component={Rigging} />
             <Route exact path="/gear/cable" component={Cable} />
             <Route exact path="/gear/atmosphere" component={Atmosphere} />
-            <Route exact path="/gallery/:item" component={GalleryPage} />
+            <Route exact path="/gallery/:item" component={Gallery} />
+            <Redirect exact path="/gallery" to="/gallery/concert" />
             <Route
               exact
               path="/gear/atmosphere/:item"
@@ -75,7 +75,8 @@ function App() {
               component={ControlDetailsCard}
             />
 
-            <Route path="/design" component={Design} />
+            <Route exact path="/design" component={Design} />
+
             <Route exact path="/" component={Landing} />
           </Switch>
           <Footer />
