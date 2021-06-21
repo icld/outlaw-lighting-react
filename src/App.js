@@ -26,6 +26,7 @@ import AutomatedDetailsCard from "./components/GearCategories/Automated/Automate
 import StaticFixturesDetailsCard from "./components/GearCategories/StaticFixtures/StaticFixturesDetailsCard";
 import CableDetailsCard from "./components/GearCategories/Cable/CableDetailsCard";
 import ControlDetailsCard from "./components/GearCategories/Control/ControlDetailsCard";
+// eslint-disable-next-line no-unused-vars
 import GalleryPage from "./components/Gallery/GalleryPage";
 
 function App() {
