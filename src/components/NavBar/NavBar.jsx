@@ -16,7 +16,7 @@ const navigation = [
 
 const Nav = () => {
   return (
-    <div className="bg-gray-900 top-0 z-12">
+    <div className="bg-gray-900 top-0 z-12 w-full">
       <Popover>
         {({ open }) => (
           <Fragment>
@@ -29,7 +29,7 @@ const Nav = () => {
                   <div className="flex items-center justify-between h-full w-full md:w-auto text-xl text-center">
                     <NavLink
                       to="/"
-                      className=" float-left w-20 md:w-40"
+                      className=" float-left md:h-16 w-20 md:w-40"
                       style={{ textShadow: "1px 1px 3px white" }}
                     >
                       <img
@@ -46,7 +46,7 @@ const Nav = () => {
                       Give us a call!
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-1 mr-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-gray-300 rounded-md p-1 mr-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>

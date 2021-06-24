@@ -32,7 +32,7 @@ import GalleryPage from "./components/Gallery/GalleryPage";
 function App() {
   return (
     <div className="flex items-center m-0 h-full bg-black ">
-      <div className=" min-h-full">
+      <div className=" min-h-full w-full">
         <Router>
           <NavBar />
 
