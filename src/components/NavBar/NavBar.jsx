@@ -39,11 +39,11 @@ const Nav = () => {
                       />
                     </NavLink>
                     <a
-                      href="tel:+19712355608"
+                      href="tel:+5038884182 "
                       className="  self-center md:hidden ml-4 mr-4 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
                       style={{ textShadow: "0px .5px 1px white" }}
                     >
-                      1-900-Outlaw1
+                      Give us a call!
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

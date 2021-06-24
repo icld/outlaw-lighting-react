@@ -24,7 +24,10 @@ const Contact = () => {
           <div className=" mb-4 ">
             Phone
             <br />
-            <a href="tel:+5038884182" className="hover:text-blue-800 ">
+            <a
+              href="tel:+5038884182"
+              className="hover:text-purple-800  text-gray-400 "
+            >
               503-888-4182{" "}
             </a>
           </div>
@@ -32,15 +35,17 @@ const Contact = () => {
             Email <br />
             <a
               href="mailto:sales@outlawlighting.com"
-              className="hover:text-blue-800 "
+              className="hover:text-purple-800 text-gray-400 "
             >
               sales@outlawlighting.com
             </a>
           </div>
           <div classname="border-gray-50 mb-4 ">
             <div className="font-normal ">Portland Offices</div>
-            <div>3342 Nw 26th Ave Suite 14,</div>
-            <div>Portland, OR 97219</div>
+            <div className=" text-gray-400">
+              <div>3342 Nw 26th Ave Suite 14,</div>
+              <div>Portland, OR 97219</div>
+            </div>
           </div>
         </div>
       </div>
