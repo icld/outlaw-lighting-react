@@ -27,7 +27,7 @@ const Gallery = ({ match, props }) => {
           {galleries.map((gallery) => (
             <NavLink
               to={`/gallery/${gallery.url}`}
-              className="font-medium md:text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
+              className="font-medium text-xs pl-4 pr-2 md:text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
               activeStyle={{
                 color: "tomato",
               }}
