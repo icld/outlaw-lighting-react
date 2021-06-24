@@ -17,12 +17,12 @@ const GearNav = () => {
           Available Rental Equipment
         </h2>
       </div>
-      <div className=" w-full h-14 bg-gray-700 ">
-        <nav className="w-5/6 h-full flex  justify-evenly m-auto">
+      <div className=" w-full h-14 bg-gray-700 flex m-auto">
+        <nav className="w-5/6 h-full flex  place-content-center text-center  justify-evenly m-auto">
           {categoryData.map((gallery) => (
             <NavLink
               to={`/gear/${gallery.url}`}
-              className="font-medium md:text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
+              className="font-medium  text-xs pl-4 md:text-2xl text-gray-200 hover:text-gray-400  text-center mt-auto mb-auto"
               activeStyle={{
                 color: "tomato",
               }}
