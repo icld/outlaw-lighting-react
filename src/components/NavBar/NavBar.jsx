@@ -25,11 +25,11 @@ const Nav = () => {
                 className="relative flex flex-row items-center justify-between h-full lg:justify-start pb-8 w-full"
                 aria-label="Global"
               >
-                <div className="flex items-center flex-grow  m-auto">
+                <div className="flex items-center  w-full m-auto">
                   <div className="flex items-center justify-between h-full w-full md:w-auto text-xl text-center">
                     <NavLink
                       to="/"
-                      className="w-32"
+                      className=" float-left w-20 md:w-40"
                       style={{ textShadow: "1px 1px 3px white" }}
                     >
                       <img
@@ -40,13 +40,13 @@ const Nav = () => {
                     </NavLink>
                     <a
                       href="tel:+5038884182 "
-                      className="  self-center md:hidden ml-4 mr-4 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right"
+                      className="self-center md:hidden mr-8 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right text-center"
                       style={{ textShadow: "0px .5px 1px white" }}
                     >
                       Give us a call!
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button className="bg-white rounded-md p-1 mr-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
