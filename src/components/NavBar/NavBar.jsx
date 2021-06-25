@@ -32,13 +32,13 @@ const Nav = () => {
                   <div className="flex items-center justify-between h-full   text-xl text-center">
                     <NavLink
                       to="/"
-                      className="w-2/3 md:w-full md:h-16"
+                      className="w-2/3 md:w-full md:h-16 float-left"
                       style={{ textShadow: "1px 1px 3px white" }}
                     >
                       <img
                         src={HeaderName}
                         alt="title"
-                        className="float-left w-full h-full"
+                        className="float-left w-full h-full  object-contain"
                       />
                       {/* <img
                         src={Logo}
@@ -62,7 +62,7 @@ const Nav = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:visible md:ml-6 lg:ml-10  md:flex md:justify-between w-1/2 m-auto">
+                <div className="hidden md:visible md:ml-6 lg:ml-10  md:flex md:justify-between w-1/2 lg:w-full m-auto">
                   {navigation.map((item) => (
                     <NavLink
                       key={item.name}
