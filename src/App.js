@@ -6,7 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import "./App.css";
-import Landing from "./components/Landing";
+import Landing from "./components/Landing/Landing";
 import NavBar from "./components/NavBar/NavBar";
 import Design from "./components/Design/Design";
 import Sales from "./components/Sales/Sales";
