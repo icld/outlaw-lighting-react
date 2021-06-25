@@ -1,20 +1,23 @@
 import React from "react";
-// import Image from "../assets/full-logo.png";
+// eslint-disable-next-line no-unused-vars
+import Image from "../assets/full-logo.png";
 import Carousel from "./Carousel/Carousel";
 import images from "../../src/components/Carousel/CarouselData";
+// eslint-disable-next-line no-unused-vars
+import longLogo from "../assets/outlaw-logo-long-text.png";
+
 // import Nav from "./Nav/Nav";
 
 const Landing = () => {
   return (
-    <div className="mt-32 w-full flex justify-center items-center relative mb-36">
+    <div className="w-full flex justify-center items-center relative mb-36">
       {/* <img
-        src={Image}
+        src={longLogo}
         alt="skull logo"
-        className=" z-10
-         ml-auto  -mt-80  w-11/12 absolute"
+        className=" z-10 w-11/12 absolute m-auto top-0"
       ></img> */}
-      <div className=" w-5/6 mx-auto">
-        <Carousel images={images} className="w-screen mx-auto" />
+      <div className=" w-full mx-auto relative border-red-400   border-t-4">
+        <Carousel images={images} className=" absolute w-full h-60  m-auto" />
         <h1
           className="text-indigo-600 text-2xl md:text-5xl font-extrabold  mt-6"
           style={{ textShadow: "1px 1px 3px white" }}
