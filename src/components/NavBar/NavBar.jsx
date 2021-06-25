@@ -1,10 +1,13 @@
-import React from "react";
+import { React } from "react";
 import { NavLink } from "react-router-dom";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../../assets/outlaw-logo-long-text.png";
-import logo3d from "../../assets/outlaw-3d-test.png";
+// import logo3d from "../../assets/outlaw-3d-test.png";
+import HeaderName from "../NavBar/outLawNameSVG.svg";
+
+// import HeaderSVG from "./HeaderSVG";
 
 const navigation = [
   { name: "Design", href: "design" },
@@ -16,34 +19,41 @@ const navigation = [
 
 const Nav = () => {
   return (
-    <div className="bg-gray-900 top-0 z-12 w-full">
+    <div className="bg-gray-900 top-0 z-12 w-full  h-20 md:h-32">
       <Popover>
         {({ open }) => (
           <Fragment>
-            <div className="relative pt-8 w-5/6 m-auto">
+            <div className="relative pt-8 w-11/12 m-auto">
               <nav
                 className="relative flex flex-row items-center justify-between h-full lg:justify-start pb-8 w-full"
                 aria-label="Global"
               >
-                <div className="flex items-center  w-full m-auto">
-                  <div className="flex items-center justify-between h-full w-full md:w-auto text-xl text-center">
+                <div className="flex items-center m-auto">
+                  <div className="flex items-center justify-between h-full   text-xl text-center">
                     <NavLink
                       to="/"
-                      className=" float-left md:h-16 w-20 md:w-40"
+                      className="w-2/3 md:w-full md:h-16"
                       style={{ textShadow: "1px 1px 3px white" }}
                     >
                       <img
-                        className="h-auto object-cover "
-                        src={logo3d}
-                        alt="logo"
+                        src={HeaderName}
+                        alt="title"
+                        className="float-left 
+                        w-full h-full"
                       />
+                      {/* <img
+                        src={Logo}
+                        alt="title"
+                        className="md:hidden sm:visibile m-auto
+                        w-3/4 float-left h-full"
+                      /> */}
                     </NavLink>
                     <a
                       href="tel:+5038884182 "
-                      className="self-center md:hidden mr-8 font-medium text-indigo-400 hover:text-indigo-500 lg:float-right text-center"
-                      style={{ textShadow: "0px .5px 1px white" }}
+                      className="self-center md:hidden font-medium  text-sm text-indigo-400 hover:text-indigo-500 lg:float-right text-center"
+                      // style={{ textShadow: "0px .5px 1px white" }}
                     >
-                      Give us a call!
+                      Call us!
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-gray-300 rounded-md p-1 mr-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -53,12 +63,12 @@ const Nav = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10  md:space-x-8">
+                <div className="hidden md:visible md:ml-6 lg:ml-10  md:flex md:justify-between w-1/2 m-auto">
                   {navigation.map((item) => (
                     <NavLink
                       key={item.name}
                       to={`/${item.href}`}
-                      className="font-medium text-2xl text-gray-200 hover:text-gray-400 m-auto text-center"
+                      className="font-medium md:text-xl lg:text-2xl text-gray-200 hover:text-gray-400 m-auto text-center  pl-4"
                       activeStyle={{
                         color: "tomato",
                       }}

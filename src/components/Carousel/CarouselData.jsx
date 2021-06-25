@@ -1,8 +1,8 @@
-import img1 from "../../assets/CarouselImages/img1.jpg";
-import img2 from "../../assets/CarouselImages/img2.jpg";
-import img3 from "../../assets/CarouselImages/img3.jpg";
-import img4 from "../../assets/CarouselImages/img4.jpg";
-import img5 from "../../assets/CarouselImages/img5.jpg";
+import img1 from "../../assets/CarouselImages/img1.png";
+import img2 from "../../assets/CarouselImages/img2.png";
+import img3 from "../../assets/CarouselImages/img3.png";
+import img4 from "../../assets/CarouselImages/img4.png";
+import img5 from "../../assets/CarouselImages/img5.png";
 
 const images = [
   { image: img1 },

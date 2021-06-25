@@ -22,7 +22,7 @@ const Gallery = ({ match, props }) => {
           Gallery
         </h2>
       </div>
-      <div className=" w-full h-14 bg-gray-700 ">
+      <div className=" w-full h-14 bg-gray-700 border-red-400   border-t-4">
         <nav className="w-5/6 h-full flex  justify-evenly m-auto">
           {galleries.map((gallery) => (
             <NavLink

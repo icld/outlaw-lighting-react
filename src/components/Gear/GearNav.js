@@ -11,13 +11,13 @@ const GearNav = () => {
           alt="concert lights"
         ></img>
         <h2
-          className=" text-2xl md:text-4xl lg:text-6xl font-extrabold w-full m-auto absolute"
+          className=" text-2xl md:text-4xl lg:text-6xl font-extrabold w-full m-auto absolute "
           style={{ textShadow: "2px 0px 10px white" }}
         >
           Available Rental Equipment
         </h2>
       </div>
-      <div className=" w-full h-14 bg-gray-700 flex m-auto">
+      <div className=" w-full h-14 bg-gray-700 flex m-auto  shadow ring-1 border-red-400   border-t-4">
         <nav className="w-5/6 h-full flex  place-content-center text-center  justify-evenly m-auto">
           {categoryData.map((gallery) => (
             <NavLink
