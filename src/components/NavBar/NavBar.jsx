@@ -38,8 +38,7 @@ const Nav = () => {
                       <img
                         src={HeaderName}
                         alt="title"
-                        className="float-left 
-                        w-full h-full"
+                        className="float-left w-full h-full"
                       />
                       {/* <img
                         src={Logo}
