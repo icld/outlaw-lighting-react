@@ -19,7 +19,7 @@ const Landing = () => {
       ></img> */}
       <div className=" w-full mx-auto relative border-red-400   border-t-4">
         <Carousel images={images} className=" absolute w-full h-60  m-auto" />
-        <div className="w-11/12 m-auto">
+        <div className="w-11/12 lg:w-9/12 m-auto">
           <h1
             className="text-indigo-600 text-2xl md:text-5xl font-extrabold  mt-6"
             style={{ textShadow: "1px 1px 3px white" }}

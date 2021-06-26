@@ -23,7 +23,7 @@ const Nav = () => {
       <Popover>
         {({ open }) => (
           <Fragment>
-            <div className="relative pt-8 w-11/12 m-auto">
+            <div className="flex pt-8 w-11/12 lg:w-9/12 m-auto">
               <nav
                 className="relative flex flex-row items-center justify-between h-full lg:justify-start pb-8 w-full"
                 aria-label="Global"
@@ -32,7 +32,7 @@ const Nav = () => {
                   <div className="flex items-center justify-between h-full   text-xl text-center">
                     <NavLink
                       to="/"
-                      className="w-2/3 md:w-full md:h-16 float-left"
+                      className="w-2/3 md:w-full  md:h-16 float-left"
                       style={{ textShadow: "1px 1px 3px white" }}
                     >
                       <img
@@ -62,7 +62,7 @@ const Nav = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:visible md:ml-6 lg:ml-10  md:flex md:justify-between w-1/2 lg:w-full m-auto">
+                <div className="hidden md:visible md:ml-6 lg:ml-10  md:flex md:justify-between w-1/2 lg:w-1/2m-auto">
                   {navigation.map((item) => (
                     <NavLink
                       key={item.name}
